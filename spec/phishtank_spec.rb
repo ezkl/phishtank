@@ -24,5 +24,5 @@ describe PhishTank do
     its(:etag)            { should eq "123456" }
   end
   
-  it { should respond_to(:update!) }
+  it { should respond_to(:update_feed!) }
 end

@@ -2,7 +2,7 @@ require 'nokogiri'
 require 'ostruct'
 
 module PhishTank
-  class Data
+  class FeedData
     attr_reader :file, :doc, :entries
         
     def initialize(data_file_path = nil)

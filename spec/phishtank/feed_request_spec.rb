@@ -1,6 +1,6 @@
 require File.expand_path(File.dirname(__FILE__) + '/../spec_helper')
 
-describe PhishTank::Request do  
+describe PhishTank::FeedRequest do  
   describe "#update?" do
     before(:all) do
       PhishTank.api_key = API_KEY

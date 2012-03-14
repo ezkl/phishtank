@@ -1,6 +1,6 @@
 require File.expand_path(File.dirname(__FILE__) + '/../spec_helper')
 
-describe PhishTank::Data do
+describe PhishTank::FeedData do
   context "success" do
     before(:all) do
       PhishTank.configure do |c|

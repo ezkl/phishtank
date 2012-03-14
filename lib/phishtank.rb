@@ -1,7 +1,7 @@
 require "phishtank/version"
 require "phishtank/configuration"
-require "phishtank/request"
-require "phishtank/data"
+require "phishtank/feed_request"
+require "phishtank/feed_data"
 
 module PhishTank
   BASE_URI = "http://data.phishtank.com"
@@ -16,8 +16,8 @@ module PhishTank
     @configuration ||= Configuration.new
   end
   
-  def self.update!
-    request = Request.new
+  def self.update_feed!
+    request = FeedRequest.new
     request.get_update if request.update?
   end
   

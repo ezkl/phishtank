@@ -21,9 +21,9 @@ or w/ Bundler, add the following to the Gemfile.
       c.etag = "ETag" #optional
     end
     
-    PhishTank.update!
+    PhishTank.update_feed!
     
-    data = PhishTank::Data.new
+    data = PhishTank::FeedData.new
     
     data.entries.first 
     # => #<OpenStruct:0x1021026f8

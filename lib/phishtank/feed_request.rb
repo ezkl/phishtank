@@ -1,7 +1,7 @@
 require 'typhoeus'
 
 module PhishTank
-  class Request    
+  class FeedRequest    
     attr_accessor :etag
     
     def initialize(etag = nil)
