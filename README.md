@@ -44,5 +44,4 @@ or w/ Bundler, add the following to the Gemfile.
 Read specs for more details.
 
 ## TODO
-* Add interface for [checking URL's](http://www.phishtank.com/api_info.php)
-* Add errors for service-specific rate limiting errors
+You can see and contribute to the list of TODO items in [issues](https://github.com/ezkl/phishtank/issues?sort=created&labels=todo&direction=desc&state=open).
