@@ -1,11 +1,7 @@
 require 'vcr'
 require File.expand_path(File.dirname(__FILE__) + '/../lib/phishtank')
 
-begin
-  API_KEY = File.read(File.dirname(__FILE__) + '/../api_key')
-rescue
-  puts "To work on the library, you must create an 'api_key' file at the root of the directory and enter your PhishTank API key"
-end
+API_KEY = "dad4255d1d50896dd9d981d0bde43176ed5020cda62ecd077a4e1652e12e1e3f"
 
 def fixture_path
   File.expand_path(File.dirname(__FILE__) + '/fixtures')
