@@ -26,7 +26,7 @@ module PhishTank
   end
   
   def self.search(url)
-    URLRequest.new(url)
+    URLRequest.new(url).search
   end
   
   def self.api_key
