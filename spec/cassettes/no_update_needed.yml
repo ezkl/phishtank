@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: head
+    uri: http://data.phishtank.com/data/<API_KEY>/online-valid.xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      ETag:
+      - Tue, 14 Mar 2012 00:00:00
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "RGF0ZQ==":
+      - !binary |-
+        V2VkLCAxNCBNYXIgMjAxMiAwMDowNTozNCBHTVQ=
+      !binary "U2VydmVy":
+      - !binary |-
+        QXBhY2hlLzIuMi45IChEZWJpYW4pIFBIUC81LjIuNi0xK2xlbm55OSB3aXRo
+        IFN1aG9zaW4tUGF0Y2g=
+      !binary "WC1Qb3dlcmVkLUJ5":
+      - !binary |-
+        UEhQLzUuMi42LTErbGVubnk5
+      !binary "TGFzdC1Nb2RpZmllZA==":
+      - !binary |-
+        V2VkLCAxNCBNYXIgMjAxMiAwMDowMDowMCBHTVQ=
+      !binary "RXRhZw==":
+      - !binary |-
+        IldlZCwgMTQgTWFyIDIwMTIgMDA6MDA6MDAi
+      !binary "Q29udGVudC1EaXNwb3NpdGlvbg==":
+      - !binary |-
+        YXR0YWNobWVudDsgZmlsZW5hbWU9dmVyaWZpZWRfb25saW5lLnhtbA==
+      !binary "VmFyeQ==":
+      - !binary |-
+        QWNjZXB0LUVuY29kaW5n
+      !binary "Q29udGVudC1FbmNvZGluZw==":
+      - !binary |-
+        Z3ppcA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MjA=
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        Y2xvc2U=
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC94bWw=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary ""
+    http_version: !binary |-
+      MS4x
+  recorded_at: Wed, 14 Mar 2012 00:03:56 GMT
+recorded_with: VCR 2.0.0
