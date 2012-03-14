@@ -5,7 +5,7 @@ Gem::Specification.new do |gem|
   gem.authors       = ["Ezekiel Templin"]
   gem.email         = ["zeke@templ.in"]
   gem.description   = %q{Ruby interface to OpenDNS's PhishTank API}
-  gem.summary       = %q{Provides a simple interface to work with OpenDNS's PhishTank developer API by handling caching and parsing of PhishTank data}
+  gem.summary       = %q{Provides a simple interface to work with OpenDNS's PhishTank developer API by handling caching and parsing of PhishTank data.}
   gem.homepage      = "https://github.com/ezkl/phishtank"
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
