@@ -1,0 +1,65 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: http://checkurl.phishtank.com/checkurl/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "RGF0ZQ==":
+      - !binary |-
+        V2VkLCAxNCBNYXIgMjAxMiAwMjozNTo0NSBHTVQ=
+      !binary "U2VydmVy":
+      - !binary |-
+        QXBhY2hlLzIuMi45IChEZWJpYW4pIFBIUC81LjIuNi0xK2xlbm55OSB3aXRo
+        IFN1aG9zaW4tUGF0Y2g=
+      !binary "WC1Qb3dlcmVkLUJ5":
+      - !binary |-
+        UEhQLzUuMi42LTErbGVubnk5
+      !binary "WC1SZXF1ZXN0LUxpbWl0LUludGVydmFs":
+      - !binary |-
+        MzAwIFNlY29uZHM=
+      !binary "WC1SZXF1ZXN0LUxpbWl0":
+      - !binary |-
+        MjUw
+      !binary "WC1SZXF1ZXN0LUNvdW50":
+      - !binary |-
+        MQ==
+      !binary "VmFyeQ==":
+      - !binary |-
+        QWNjZXB0LUVuY29kaW5n
+      !binary "Q29udGVudC1FbmNvZGluZw==":
+      - !binary |-
+        Z3ppcA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        Mjcw
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        Y2xvc2U=
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC94bWw=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KCTxyZXNw
+        b25zZT4KCQk8bWV0YT4KCQkJPHRpbWVzdGFtcD4yMDEyLTAzLTE0VDAyOjM1
+        OjQ1KzAwOjAwPC90aW1lc3RhbXA+CgkJCTxzZXJ2ZXJpZD5lNTZkZWZjYzwv
+        c2VydmVyaWQ+CgkJCTxyZXF1ZXN0aWQ+MTkyLjE2OC4wLjEwNy40ZjYwMDQw
+        MTM3ODBhNC4yMTIzNDUxMjwvcmVxdWVzdGlkPgoJCTwvbWV0YT4KCQk8cmVz
+        dWx0cz4KCQkJPHVybDA+CgkJCQk8dXJsPjwhW0NEQVRBW2h0dHA6Ly93d3cu
+        Z29vZ2xlLmNvbS8/cT1zZWFyY2ggcXVlcnldXT48L3VybD4KCQkJCTxpbl9k
+        YXRhYmFzZT5mYWxzZTwvaW5fZGF0YWJhc2U+CgkJCTwvdXJsMD4KCQk8L3Jl
+        c3VsdHM+Cgk8L3Jlc3BvbnNlPgo=
+    http_version: !binary |-
+      MS4x
+  recorded_at: Wed, 14 Mar 2012 02:34:06 GMT
+recorded_with: VCR 2.0.0

@@ -1,7 +1,11 @@
+require 'typhoeus'
+require 'nokogiri'
+
 require "phishtank/version"
 require "phishtank/configuration"
 require "phishtank/feed_request"
 require "phishtank/feed_data"
+require "phishtank/url_request"
 
 module PhishTank
   BASE_URI = "http://data.phishtank.com"
@@ -19,6 +23,10 @@ module PhishTank
   def self.update_feed!
     request = FeedRequest.new
     request.get_update if request.update?
+  end
+  
+  def self.search(url)
+    URLRequest.new(url)
   end
   
   def self.api_key

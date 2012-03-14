@@ -1,5 +1,3 @@
-require 'typhoeus'
-
 module PhishTank
   class FeedRequest    
     attr_accessor :etag

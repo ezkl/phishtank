@@ -25,4 +25,6 @@ describe PhishTank do
   end
   
   it { should respond_to(:update_feed!) }
+  
+  it { should respond_to(:search) }
 end

@@ -41,6 +41,9 @@ or w/ Bundler, add the following to the Gemfile.
     #    }
     #>
     
+    PhishTank.search("http://www.google.com/") #=> false
+    PhishTank.search("http://suspiciousurl.com/") #=> OpenStruct w/ PhishTank details
+    
 Read specs for more details.
 
 ## TODO

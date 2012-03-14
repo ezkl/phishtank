@@ -1,0 +1,71 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: http://checkurl.phishtank.com/checkurl/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "RGF0ZQ==":
+      - !binary |-
+        V2VkLCAxNCBNYXIgMjAxMiAwMjo0NDoyMyBHTVQ=
+      !binary "U2VydmVy":
+      - !binary |-
+        QXBhY2hlLzIuMi45IChEZWJpYW4pIFBIUC81LjIuNi0xK2xlbm55OSB3aXRo
+        IFN1aG9zaW4tUGF0Y2g=
+      !binary "WC1Qb3dlcmVkLUJ5":
+      - !binary |-
+        UEhQLzUuMi42LTErbGVubnk5
+      !binary "WC1SZXF1ZXN0LUxpbWl0LUludGVydmFs":
+      - !binary |-
+        MzAwIFNlY29uZHM=
+      !binary "WC1SZXF1ZXN0LUxpbWl0":
+      - !binary |-
+        MjUw
+      !binary "WC1SZXF1ZXN0LUNvdW50":
+      - !binary |-
+        MQ==
+      !binary "VmFyeQ==":
+      - !binary |-
+        QWNjZXB0LUVuY29kaW5n
+      !binary "Q29udGVudC1FbmNvZGluZw==":
+      - !binary |-
+        Z3ppcA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        Mzcx
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        Y2xvc2U=
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC94bWw=
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KCTxyZXNw
+        b25zZT4KCQk8bWV0YT4KCQkJPHRpbWVzdGFtcD4yMDEyLTAzLTE0VDAyOjQ0
+        OjIzKzAwOjAwPC90aW1lc3RhbXA+CgkJCTxzZXJ2ZXJpZD4yZDVjMmNiPC9z
+        ZXJ2ZXJpZD4KCQkJPHJlcXVlc3RpZD4xOTIuMTY4LjAuMTA3LjRmNjAwNjA3
+        ZDBkZjMxLjAxMjQ2MjM1PC9yZXF1ZXN0aWQ+CgkJPC9tZXRhPgoJCTxyZXN1
+        bHRzPgoJCQk8dXJsMD4KCQkJCTx1cmw+PCFbQ0RBVEFbaHR0cDovL3d3dy5n
+        cm92ZXNnYXMuY28udWsvVEFNRmlkZWxpZGFkZS9jbGllbnRldGFtLmh0bV1d
+        PjwvdXJsPgoJCQkJPGluX2RhdGFiYXNlPnRydWU8L2luX2RhdGFiYXNlPgoJ
+        CQkJPHBoaXNoX2lkPjEzODk3NTM8L3BoaXNoX2lkPgoJCQkJPHBoaXNoX2Rl
+        dGFpbF9wYWdlPjwhW0NEQVRBW2h0dHA6Ly93d3cucGhpc2h0YW5rLmNvbS9w
+        aGlzaF9kZXRhaWwucGhwP3BoaXNoX2lkPTEzODk3NTNdXT48L3BoaXNoX2Rl
+        dGFpbF9wYWdlPgoJCQkJPHZlcmlmaWVkPnRydWU8L3ZlcmlmaWVkPgoJCQkJ
+        PHZlcmlmaWVkX2F0PjIwMTItMDMtMTNUMjI6NTE6NDMrMDA6MDA8L3Zlcmlm
+        aWVkX2F0PgoJCQkJPHZhbGlkPnRydWU8L3ZhbGlkPgoJCQk8L3VybDA+CgkJ
+        PC9yZXN1bHRzPgoJPC9yZXNwb25zZT4K
+    http_version: !binary |-
+      MS4x
+  recorded_at: Wed, 14 Mar 2012 02:41:45 GMT
+recorded_with: VCR 2.0.0
