@@ -1,5 +1,5 @@
 module PhishTank
-  class FeedRequest    
+  class FeedRequest
     attr_accessor :etag
     
     def initialize(etag = nil)
@@ -14,9 +14,9 @@ module PhishTank
     
     def get_update
       response = get(update_uri)
-      file = File.new("#{PhishTank.configuration.temp_directory}/online-valid.xml", 'w')
-      file.puts response.body
-      file.close
+      File.open("#{PhishTank.configuration.temp_directory}/online-valid.xml", 'wb') do |file|
+        file.write(response.body)
+      end
     end
     
     def update_uri
